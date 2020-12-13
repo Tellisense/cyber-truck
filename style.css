@@ -1,0 +1,78 @@
+
+html, body{
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grass, .sky, .road{
+  position: relative;
+}
+
+.sky{
+  height: 40%;
+  background: rgb(247,248,0);
+  background: radial-gradient(circle, rgba(247,248,0,1) 10%, rgba(242,142,0,1) 13%, rgba(0,212,255,1) 78%, rgba(107,169,244,1) 100%, rgba(0,5,36,1) 100%);
+}
+
+.ocean {
+  height: 25%;
+  background: rgb(24,0,248);
+  background: linear-gradient(180deg, rgba(24,0,248,1) 0%, rgba(0,21,242,1) 0%, rgba(245,253,255,1) 0%, rgba(38,130,247,1) 99%, rgba(0,5,36,1) 100%);
+}
+.wall {
+  height: 5%;
+  background: rgb(53, 19, 19);
+  box-sizing: border-box;
+  border-top: 10px solid rgb(48, 35, 35);
+  border-bottom: 10px solid rgb(41, 26, 26);
+  width: 100%;
+}
+
+.road {
+  position: relative;
+  height: 30%;
+  background: dimgrey;
+  box-sizing: border-box;
+  border-top: 10px solid grey;
+  border-bottom: 10px solid grey;
+  width: 100%;
+}
+
+.lines {
+  box-sizing: border-box;
+  border: 5px dashed #fff;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  top: 45%;
+}
+
+.cyber-truck {
+  height: 6rem;
+  position: absolute;
+  top: 10px;
+  left: 0;
+animation-name: drive;
+animation-duration: 7s;
+animation-fill-mode: both;
+animation-iteration-count: infinite;
+}
+
+
+@keyframes drive {
+   from { 
+    transform: translateX(-200px)
+   }
+   to {
+    transform: translateX(2000px)
+   }
+}
+
+
+
+
+
+
