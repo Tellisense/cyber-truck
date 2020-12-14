@@ -8,13 +8,13 @@ html, body{
 }
 
 .sky{
-  height: 40%;
+  height: 55%;
   background: rgb(247,248,0);
   background: radial-gradient(circle, rgba(247,248,0,1) 10%, rgba(242,142,0,1) 13%, rgba(0,212,255,1) 78%, rgba(107,169,244,1) 100%, rgba(0,5,36,1) 100%);
 }
 
 .ocean {
-  height: 25%;
+  height: 10%;
   background: rgb(24,0,248);
   background: linear-gradient(180deg, rgba(24,0,248,1) 0%, rgba(0,21,242,1) 0%, rgba(245,253,255,1) 0%, rgba(38,130,247,1) 99%, rgba(0,5,36,1) 100%);
 }
